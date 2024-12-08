@@ -4,17 +4,23 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.header {
+    background-color: #dd5e02cc;
+    background: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 100px;
+    margin: 0px 100px;
 }
 
 nav ul {
     display: flex;
     align-items: center;
-
 }
 
 nav ul li {
@@ -45,4 +51,30 @@ nav ul li a {
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+}
+
+.homePage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.homeSub {
+    font-size: 26px;
+}
+
+.homeTitle {
+    font-size: 52px;
+}
+
+.homePara {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 447px;
+    background-position: bottom;
+    display: block;
 }
