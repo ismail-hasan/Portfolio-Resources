@@ -6,9 +6,10 @@
 
 .header {
     background-color: #dd5e02cc;
-    background: url("images/header_bg.png");
+    background-image: url("images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 80px;
 }
 
 nav {
@@ -77,4 +78,63 @@ img {
     width: 447px;
     background-position: bottom;
     display: block;
+}
+
+/* about sectoin  */
+.main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.aboutSection {
+    background-color: #fce5d5cc;
+    text-align: center;
+    padding: 120px;
+}
+
+.aboutSkill {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.aboutSkillName {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* exprences sectio start  */
+.exprences {
+    padding: 100px 0;
+}
+
+.exprences .exTitle {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.exprences>p {
+    text-align: center;
+    line-height: 30px;
+}
+
+.mainExprenceCard {
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    padding: 30px 0;
+}
+
+.mainExprence {
+    width: 25%;
+    gap: 40px;
+    background: rgb(180, 180, 180);
+    padding: 30px 30px;
+
+}
+
+.mainExprence img {
+    width: 50px;
 }
